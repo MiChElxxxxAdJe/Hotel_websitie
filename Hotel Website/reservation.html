@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Royal Succes Hotel-Reservation</title>
+        <link rel="stylesheet" href="css/reservation.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+
+    <body>
+        <div class="contactUs">
+            <div class="title">
+                <h2>Royal Succes Hotel-RESERVATION</h2>
+            </div>
+            <div class="box">
+                <!-- Formulaire-->
+                <div class="contact form">
+                    <h3>DETAILS DE RESERVATION</h3>
+                    <form>
+                        <div class="formBox">
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>Nom</span>
+                                    <input type="text" placeholder="World">
+                                </div>
+                                <div class="inputBox">
+                                    <span>Prenom</span>
+                                    <input type="text" placeholder="Michel">
+                                </div>
+                            </div>
+
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>Email</span>
+                                    <input type="text" placeholder="michelWorld@email.com">
+                                </div>
+                                <div class="inputBox">
+                                    <span>Contact</span>
+                                    <input type="text" placeholder="+00 123 456 789">
+                                </div>
+                            </div>
+
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>Nombre de chambres</span>
+                                    <input type="text" placeholder="1">
+                                </div>
+                                <div class="inputBox">
+                                    <span>Nombre de personnes</span>
+                                    <input type="text" placeholder="2">
+                                </div>
+                            </div>
+
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>Nombre d'enfants</span>
+                                    <input type="text" placeholder="0">
+                                </div>
+                                <div class="inputBox">
+                                    <span>Reestauration incluse</span>
+                                    <input type="text" placeholder=" O pour OUI ou N pour non">
+                                </div>
+                            </div>
+
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>Date d'arrivée</span>
+                                    <input type="Date" >
+                                </div>
+                                <div class="inputBox">
+                                    <span>Date de depart</span>
+                                    <input type="Date">
+                                </div>
+                            </div>
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <span>Mode de paiement</span>
+                                    <select class="form-control" id="res_facilities" onchange="finalCost();">
+                                        <option value="0"> CASH</option>
+                                        <option value="1"> PAYPAL </option>
+                                        <option value="2"> VISA</option>
+                                        <option value="3"> Autre methode de payement </option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <input type="submit" value="Reserver">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+             <div class="social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+
+            <ul class="list">
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+
+                <li>
+                    <a href="#">Hebergement</a>
+                </li>
+
+                <li>
+                    <a href="index.html#Services">Nos Services</a>
+                </li>
+
+                <li>
+                    <a href="#">A propos</a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                Michel ADJETEY &copy; | +225 01 51 36 61 39 
+            </p>               
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body> 
+</html>
